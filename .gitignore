@@ -1,0 +1,17 @@
+# Node.js modules
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# GAS config
+.clasp.json
+credentials.json
+
+# OS/IDE files
+.DS_Store
+.idea/
+.vscode/
