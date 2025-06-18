@@ -1,0 +1,26 @@
+name: Deploy GAS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Authenticate clasp
+        run: npx clasp login --creds credentials.json
+
+      - name: Push to GAS
+        run: npx clasp push
