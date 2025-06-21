@@ -1,9 +1,8 @@
 {
-  "scriptId": "13S4R9YFlF9xsTyEGpwPe1GHeUbp9fEYDUoF1PrZIzKYkEYkOjnhd6A0v",
-  "rootDir": "dist",
+  "scriptId": "14DzIvA7dYeoTqBjQSx3a98eKKsLi7Ylv_z8RUgzjzwxeN9eFFsTrx-mV",
+  "rootDir": "app",
   "scriptExtensions": [
-    ".js",
-    ".gs"
+    ".js"
   ],
   "htmlExtensions": [
     ".html"

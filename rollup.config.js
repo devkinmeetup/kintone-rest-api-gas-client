@@ -1,11 +1,17 @@
-import typescript from 'rollup-plugin-typescript2';
+import typescript from '@rollup/plugin-typescript';
 
 export default {
   input: 'src/main.ts',
   output: {
-    file: 'dist/code.gs',
-    format: 'iife',
-    name: 'MyLibrary',
+    file: 'app/main.js',
+    format: 'es',
+    exports: 'none'
   },
-  plugins: [typescript()],
+  plugins: [
+    typescript({
+      target: 'es2019',
+      module: 'esnext'
+    })
+  ],
+  external: []
 };
