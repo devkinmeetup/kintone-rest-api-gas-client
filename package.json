@@ -1,0 +1,27 @@
+{
+  "name": "kintone-rest-api-gas-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c",
+    "deploy": "npm run build && npx clasp push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Google Apps Script client library for the Kintone REST API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devkinmeetup/kintone-rest-api-gas-client"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@google/clasp": "^3.0.6-alpha",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/google-apps-script": "^1.0.99",
+    "rollup": "^4.43.0",
+    "rollup-plugin-delete": "^3.0.1",
+    "typescript": "^5.8.3"
+  }
+}

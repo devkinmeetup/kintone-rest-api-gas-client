@@ -1,0 +1,15 @@
+{
+  "scriptId": "{{YOUR_SCRIPT_ID}}",
+  "rootDir": "app",
+  "scriptExtensions": [
+    ".js"
+  ],
+  "htmlExtensions": [
+    ".html"
+  ],
+  "jsonExtensions": [
+    ".json"
+  ],
+  "filePushOrder": [],
+  "skipSubdirectories": false
+}
