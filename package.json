@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Google Apps Script client library for the Kintone REST API",
   "repository": {
     "type": "git",
     "url": "https://github.com/devkinmeetup/kintone-rest-api-gas-client"
