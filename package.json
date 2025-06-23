@@ -1,5 +1,5 @@
 {
-  "name": "case-manager",
+  "name": "kintone-rest-api-gas-client",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -11,6 +11,11 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devkinmeetup/kintone-rest-api-gas-client"
+  },
+  "homepage": "",
   "devDependencies": {
     "@google/clasp": "^3.0.6-alpha",
     "@rollup/plugin-typescript": "^12.1.2",
